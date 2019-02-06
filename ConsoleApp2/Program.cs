@@ -3,18 +3,20 @@
 namespace ConsoleApp2
 {
     class Program
-    {
-        static void Main(string[] args)
-        {
+    { 
             static int i = 0;
-            static void Main(string[] args)
+    
+        static void Main(string[] args)
+        
+            
+          
             {
                 MethodA();
 
-                Console.WriteLine("now I am done!");
+                
 
             }
-            public static void MethodA()
+               public static void MethodA()
             {
                 while (Peanut())
                 {
@@ -29,10 +31,13 @@ namespace ConsoleApp2
             }
             public static bool Peanut()
             {
-                i++;
+               
                 return true;
 
             }
         }
     }
+
+
+
     
